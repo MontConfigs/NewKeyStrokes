@@ -1,41 +1,246 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local function createGui(parent)
+	--ScreenGui1--
+	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	----ScreenGui1----
+	--TextLabel2--
+	local TextLabel2 = Instance.new("TextLabel",ScreenGui1)
+	TextLabel2["TextColor3"] = Color3.new(0.866667, 0.756863, 1)
+	TextLabel2["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel2["Text"] = "-------------"
+	TextLabel2["Font"] = Enum.Font.FredokaOne
+	TextLabel2["BackgroundTransparency"] = 0.20000000298023224
+	TextLabel2["Position"] = UDim2.new(0.0227272734, 0, 0.717277467, 0)
+	TextLabel2["TextSize"] = 20
+	TextLabel2["Size"] = UDim2.new(0, 127, 0, 42)
+	TextLabel2["BorderSizePixel"] = 0
+	TextLabel2["BackgroundColor3"] = Color3.new(0.313726, 0.313726, 0.313726)
+	----TextLabel2----
+	--UICorner3--
+	local UICorner3 = Instance.new("UICorner",TextLabel2)
+	UICorner3["CornerRadius"] = UDim.new(0, 6)
+	----UICorner3----
+	--Script4--
+	local Script4 = Instance.new("Script",TextLabel2)
+	----Script4----
+	--TextLabel5--
+	local TextLabel5 = Instance.new("TextLabel",ScreenGui1)
+	TextLabel5["TextColor3"] = Color3.new(0.866667, 0.756863, 1)
+	TextLabel5["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel5["Text"] = "A"
+	TextLabel5["Font"] = Enum.Font.FredokaOne
+	TextLabel5["BackgroundTransparency"] = 0.20000000298023224
+	TextLabel5["Position"] = UDim2.new(0.0227272734, 0, 0.666230381, 0)
+	TextLabel5["TextSize"] = 20
+	TextLabel5["Size"] = UDim2.new(0, 37, 0, 39)
+	TextLabel5["BorderSizePixel"] = 0
+	TextLabel5["BackgroundColor3"] = Color3.new(0.313726, 0.313726, 0.313726)
+	----TextLabel5----
+	--UICorner6--
+	local UICorner6 = Instance.new("UICorner",TextLabel5)
+	UICorner6["CornerRadius"] = UDim.new(0, 6)
+	----UICorner6----
+	--Script7--
+	local Script7 = Instance.new("Script",TextLabel5)
+	----Script7----
+	--TextLabel8--
+	local TextLabel8 = Instance.new("TextLabel",ScreenGui1)
+	TextLabel8["TextColor3"] = Color3.new(0.866667, 0.756863, 1)
+	TextLabel8["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel8["Text"] = "S"
+	TextLabel8["Font"] = Enum.Font.FredokaOne
+	TextLabel8["BackgroundTransparency"] = 0.20000000298023224
+	TextLabel8["Position"] = UDim2.new(0.0563636348, 0, 0.666230381, 0)
+	TextLabel8["TextSize"] = 20
+	TextLabel8["Size"] = UDim2.new(0, 37, 0, 39)
+	TextLabel8["BorderSizePixel"] = 0
+	TextLabel8["BackgroundColor3"] = Color3.new(0.313726, 0.313726, 0.313726)
+	----TextLabel8----
+	--UICorner9--
+	local UICorner9 = Instance.new("UICorner",TextLabel8)
+	UICorner9["CornerRadius"] = UDim.new(0, 6)
+	----UICorner9----
+	--Script10--
+	local Script10 = Instance.new("Script",TextLabel8)
+	----Script10----
+	--TextLabel11--
+	local TextLabel11 = Instance.new("TextLabel",ScreenGui1)
+	TextLabel11["TextColor3"] = Color3.new(0.866667, 0.756863, 1)
+	TextLabel11["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel11["Text"] = "D"
+	TextLabel11["Font"] = Enum.Font.FredokaOne
+	TextLabel11["BackgroundTransparency"] = 0.20000000298023224
+	TextLabel11["Position"] = UDim2.new(0.0890909135, 0, 0.666230381, 0)
+	TextLabel11["TextSize"] = 20
+	TextLabel11["Size"] = UDim2.new(0, 37, 0, 39)
+	TextLabel11["BorderSizePixel"] = 0
+	TextLabel11["BackgroundColor3"] = Color3.new(0.313726, 0.313726, 0.313726)
+	----TextLabel11----
+	--UICorner12--
+	local UICorner12 = Instance.new("UICorner",TextLabel11)
+	UICorner12["CornerRadius"] = UDim.new(0, 6)
+	----UICorner12----
+	--Script13--
+	local Script13 = Instance.new("Script",TextLabel11)
+	----Script13----
+	--TextLabel14--
+	local TextLabel14 = Instance.new("TextLabel",ScreenGui1)
+	TextLabel14["TextColor3"] = Color3.new(0.866667, 0.756863, 1)
+	TextLabel14["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel14["Text"] = "W"
+	TextLabel14["Font"] = Enum.Font.FredokaOne
+	TextLabel14["BackgroundTransparency"] = 0.20000000298023224
+	TextLabel14["Position"] = UDim2.new(0.0563636348, 0, 0.615183234, 0)
+	TextLabel14["TextSize"] = 20
+	TextLabel14["Size"] = UDim2.new(0, 37, 0, 39)
+	TextLabel14["BorderSizePixel"] = 0
+	TextLabel14["BackgroundColor3"] = Color3.new(0.313726, 0.313726, 0.313726)
+	----TextLabel14----
+	--UICorner15--
+	local UICorner15 = Instance.new("UICorner",TextLabel14)
+	UICorner15["CornerRadius"] = UDim.new(0, 6)
+	----UICorner15----
+	--Script16--
+	local Script16 = Instance.new("Script",TextLabel14)
+	----Script16----
+	spawn(function() --Source for Script4
+		local script = Script4
+		local textLabel = script.Parent -- Get the TextLabel object
+		
+		-- Define a function to handle the keyboard events
+		local function handleKeyEvent(input, isKeyDown)
+			if input.KeyCode == Enum.KeyCode.Space then -- Only change the background color if the "W" key is pressed
+				if isKeyDown then
+					textLabel.BackgroundColor3 = Color3.fromRGB(147,112,219) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Change the background color back to light gray when the "W" key is released
+				end
+			end
+		end
+		
+		-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
+		game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, true)
+			end
+		end)
+		
+		game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, false)
+			end
+		end)
+	end)
+	spawn(function() --Source for Script7
+		local script = Script7
+		local textLabel = script.Parent -- Get the TextLabel object
+		
+		-- Define a function to handle the keyboard events
+		local function handleKeyEvent(input, isKeyDown)
+			if input.KeyCode == Enum.KeyCode.A then -- Only change the background color if the "W" key is pressed
+				if isKeyDown then
+					textLabel.BackgroundColor3 = Color3.fromRGB(147,112,219) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Change the background color back to light gray when the "W" key is released
+				end
+			end
+		end
+		
+		-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
+		game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, true)
+			end
+		end)
+		
+		game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, false)
+			end
+		end)
+	end)
+	spawn(function() --Source for Script10
+		local script = Script10
+		local textLabel = script.Parent -- Get the TextLabel object
+		
+		-- Define a function to handle the keyboard events
+		local function handleKeyEvent(input, isKeyDown)
+			if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
+				if isKeyDown then
+					textLabel.BackgroundColor3 = Color3.fromRGB(147,112,219) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Change the background color back to light gray when the "W" key is released
+				end
+			end
+		end
+		
+		-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
+		game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, true)
+			end
+		end)
+		
+		game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, false)
+			end
+		end)
+	end)
+	spawn(function() --Source for Script13
+		local script = Script13
+		local textLabel = script.Parent -- Get the TextLabel object
+		
+		-- Define a function to handle the keyboard events
+		local function handleKeyEvent(input, isKeyDown)
+			if input.KeyCode == Enum.KeyCode.D then -- Only change the background color if the "W" key is pressed
+				if isKeyDown then
+					textLabel.BackgroundColor3 = Color3.fromRGB(147,112,219) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Change the background color back to light gray when the "W" key is released
+				end
+			end
+		end
+		
+		-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
+		game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, true)
+			end
+		end)
+		
+		game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, false)
+			end
+		end)
+	end)
+	spawn(function() --Source for Script16
+		local script = Script16
+		local textLabel = script.Parent -- Get the TextLabel object
+		
+		-- Define a function to handle the keyboard events
+		local function handleKeyEvent(input, isKeyDown)
+			if input.KeyCode == Enum.KeyCode.W then -- Only change the background color if the "W" key is pressed
+				if isKeyDown then
+					textLabel.BackgroundColor3 = Color3.fromRGB(147,112,219) -- Change the background color to dark gray when the "W" key is pressed
+				else
+					textLabel.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Change the background color back to light gray when the "W" key is released
+				end
+			end
+		end
+		
+		-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
+		game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, true)
+			end
+		end)
+		
+		game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
+			if not processed then
+				handleKeyEvent(input, false)
+			end
+		end)
+	end)
+end
+createGui(game.CoreGui) --coregui by default you should but change it
